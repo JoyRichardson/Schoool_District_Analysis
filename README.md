@@ -1,2 +1,3 @@
-# Schoool_District_Analysis
-Aggregate data and showcase trends fo r the School Board/Superintendent
+# School_District_Analysis
+Aggregate data and showcase trends and school performances for the School Board/Superintendent to use for school budgets and priorities.
+
