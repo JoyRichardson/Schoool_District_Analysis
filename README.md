@@ -29,7 +29,7 @@ As shown above, the average math score dropped 0.10, which effectively had no ch
 (Original)
 ![](School_Summary_before.PNG)
 (Amended)
-![](School_Summary_after.PNG)
+![](School_Summary2_after.PNG)
 As shown above, only the Thomas High School results were affected.  Although the average reading score increased by 0.047, all other statistics were reduced by less than 0.10, again effectively having no change in the analysis results for the schools.
 
 * How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
@@ -44,7 +44,8 @@ As shown above, only the Thomas High School results were affected.  Although the
     ![](Reading_by_Grade_before.PNG)<br/>
     (Amended - Reading)<br/>
     ![](Reading_by_Grade_after.PNG)<br/>
-    
+    As shown above, the only change for both the math and reading scores for the 9th grade at Thomas High School is the original scores are replaced with NaN.
+        
   * Scores by school spending<br/>
     (Original)<br/>
     ![](Spending_Ranges_before.PNG)<br/>
