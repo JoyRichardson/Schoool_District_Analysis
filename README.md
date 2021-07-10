@@ -15,6 +15,9 @@ Data:  .csv files:  students_complete, schools_complete, clean_students_complete
 Software(s):  Python 3.7, Jupyter Lab 3.0.14, Pandas, NumPy
 ## Results
 * How is the district summary affected?
+
+![](District_Summary_before.png)
+![](District_Summary_after.png)
 * How is the school summary affected?
 * How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 * How does replacing the ninth-grade scores affect the following:
