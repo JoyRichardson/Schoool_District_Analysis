@@ -30,44 +30,33 @@ As shown above, the average math score dropped 0.10, which effectively had no ch
 ![](School_Summary_before.PNG)
 (Amended)
 ![](School_Summary2_after.PNG)
-As shown above, only the Thomas High School results were affected.  Although the average reading score increased by 0.047, all other statistics were reduced by less than 0.10, again effectively having no change in the analysis results for the schools.
+As shown above, only the Thomas High School results were affected.  Although the average math and reading scores were minimally affected, all other statistics were greatly changed due to the effect of NaNs = 0 in the percentage calculations.
 
-* How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+* How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?<br/>
+
+  Originally, Thomas High School ranked second in the District due to its high Overall Passing % of 91.  With the replacement of the 9th grade scores with zeroes, the Overall  Passing % dropped to 65, dropping the school from second to eighth place in the District.
   
 * How does replacing the ninth-grade scores affect the following:<br/>
   * Math and reading scores by grade<br/>
-    (Original - Math)<br/>
-    ![](Math_by_Grade_before.PNG)<br/>
     (Amended - Math)<br/>
     ![](Math_by_Grade_after.PNG)<br/>
-    (Original - Reading)<br/>
-    ![](Reading_by_Grade_before.PNG)<br/>
     (Amended - Reading)<br/>
     ![](Reading_by_Grade_after.PNG)<br/>
-    As shown above, the only change for both the math and reading scores for the 9th grade at Thomas High School is the original scores are replaced with NaN.
+    As shown above, the only change for both the math and reading scores for the 9th grade at Thomas High School is the original scores are replaced with NaN = 0.
         
   * Scores by school spending<br/>
-    (Original)<br/>
-    ![](Spending_Ranges_before.PNG)<br/>
-    (Amended)<br/>
-    ![](Spending_Ranges_after.PNG)<br/>
-    
+    Thomas High School is in the spending bucket of "$630-644" in both analyses.  Removing the 9th grade students' scores reduced the passing percentages by an insignificant amount.
+     
   * Scores by school size<br/>
-    (Original)<br/>
-    ![](School_Size_before.PNG)<br/>
-    (Amended)<br/>
-    ![](School_Size_after.PNG)<br/>
+    Thomas High School is in the "Medium (1000 - 2000)" size in both analyses.  Removing the 9th grade students' scores reduced the passing percentages by an insignificant amount.
     
   * Scores by school type<br/>
-    (Original)<br/>
-    ![](School_Type_before.PNG)<br/>
-    (Amended)<br/>
-    ![](School_Type_after.PNG)<br/>
+    Thomas High School is in the "Charter" type in both analyses.  Removing the 9th grade students' scores reduced the passing percentages by an insignificant amount.
 
 ## Summary
 We have summarized the following changes in the updated analysis after the reading and math scores for the ninth grade at Thomas High School were replaced with NaNs.<br/>
-1)
-2)
-3)
-4)
+1)  There were no significant changes in the analysis results for the district.
+2)  Although the average math and reading scores were not significantly impacted, the replacement of grades with zeroes made a significant change in the passing percentages for Thomas High School.
+3)  Thomas High School dropped from second to eighth in performance ranking in the District.
+4)  Thomas High School remained in the same categories for scores by school spending, scores by school size, and scores by school type with minimal change.
 
